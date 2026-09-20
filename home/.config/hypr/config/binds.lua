@@ -87,15 +87,15 @@ hl.bind(mainMod .. " + Space",      hl.dsp.exec_cmd(noctCall .. "panel-toggle la
 hl.bind(mainMod .. " + period",     hl.dsp.exec_cmd(noctCall .. "panel-toggle launcher /emo"))
 hl.bind(mainMod .. " + L",          hl.dsp.exec_cmd(noctCall .. "session lock"))
 hl.bind(mainMod .. " + Escape",    hl.dsp.exec_cmd(noctCall .. "panel-toggle session"))
-hl.bind(mainMod .. " + Y",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title yazi -e yazi "))
+hl.bind(mainMod .. " + Y",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title apps-float-large -e yazi "))
 hl.bind(mainMod .. " + P",     hl.dsp.exec_cmd(launchPrefix .. "super-productivity"))
 hl.bind(" ALT + Space",     hl.dsp.exec_cmd(launchPrefix .. "~/.config/scripts/tools-manager.sh"))
 hl.bind(" ALT + Z ",     hl.dsp.exec_cmd(launchPrefix .. "voxtype record toggle"))
 hl.bind(mainMod .. " + W",     hl.dsp.exec_cmd(launchPrefix .. "~/.config/scripts/webapps-launcher.sh"))
-hl.bind(mainMod .. " + T ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title tuxedo -e ~/.cargo/bin/tuxedo"))
-hl.bind(mainMod .. " + ALT + T ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title tools-float -e ~/.config/scripts/quicktodo.sh"))
-hl.bind(mainMod .. " + ALT + N ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title tools-float -e ~/.config/scripts/quicknote.sh"))
-hl.bind(mainMod .. " + ALT + R ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title tools-float -e ~/.config/scripts/quickreminder.sh"))
+hl.bind(mainMod .. " + T ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title apps-float-large -e ~/.cargo/bin/tuxedo"))
+hl.bind(mainMod .. " + ALT + T ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title apps-float-small -e ~/.config/scripts/quicktodo.sh"))
+hl.bind(mainMod .. " + ALT + N ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title apps-float-small -e ~/.config/scripts/quicknote.sh"))
+hl.bind(mainMod .. " + ALT + R ",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " --title apps-float-small -e ~/.config/scripts/quickreminder.sh"))
 
 ---------------------------
 ---- HARDWARE CONTROLS ----
