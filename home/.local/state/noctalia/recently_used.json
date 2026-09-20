@@ -1,0 +1,24 @@
+{
+  "Applications": [
+    "/var/lib/flatpak/exports/share/applications/com.bitwarden.desktop.desktop",
+    "/usr/share/applications/virt-manager.desktop",
+    "/var/lib/flatpak/exports/share/applications/io.ente.auth.desktop",
+    "/usr/share/applications/brave-origin.desktop",
+    "/var/lib/flatpak/exports/share/applications/app.zen_browser.zen.desktop",
+    "/usr/share/applications/org.gnome.Software.desktop",
+    "/usr/share/applications/org.gnome.seahorse.Application.desktop",
+    "/usr/share/applications/app.zen_browser.zen.desktop",
+    "/usr/share/applications/geany.desktop",
+    "/usr/share/applications/nwg-look.desktop",
+    "/usr/share/applications/qt5ct.desktop",
+    "/usr/share/applications/qt6ct.desktop",
+    "/usr/share/applications/ca.desrt.dconf-editor.desktop",
+    "/usr/share/applications/org.kde.dolphin.desktop",
+    "/usr/share/applications/pcmanfm.desktop",
+    "/usr/share/applications/com.github.wwmm.easyeffects.desktop",
+    "/home/gskumar/.local/share/applications/cliamp.desktop",
+    "/usr/share/applications/uuctl.desktop",
+    "/usr/share/applications/pcmanfm-desktop-pref.desktop",
+    "/usr/share/applications/yazi.desktop"
+  ]
+}
