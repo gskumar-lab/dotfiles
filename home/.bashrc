@@ -122,5 +122,7 @@ extract() {
     esac
 }
 
+eval "$(zoxide init bash)"
+
 #starship init
 eval "$(starship init bash)"
