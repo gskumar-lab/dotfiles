@@ -26,6 +26,7 @@ unset rc
 alias c="bat -p"
 alias syu="sudo dnf upgrade --refresh"
 alias mkdir="mkdir -pv"
+alias x="chmod +x"
 #alias rmdir="rmdir -v"
 
 #Bulletproof History
