@@ -10,6 +10,7 @@ hl.window_rule({
     opacity	      = "1.0 override",
     keep_aspect_ratio = true,
     size              = { "max(monitor_w, monitor_h)*0.25", "min(monitor_w, monitor_h)*0.25" },
+    move = { "monitor_w - window_w - (monitor_w * 0.055)","monitor_h - window_h - (monitor_h * 0.055)"},
     pin               = true,
 })
 
@@ -132,7 +133,14 @@ hl.window_rule({ match = { title = "Ente Auth" }, float = true })
 
 
 
-
+-- Float Browser Extensions and Popups
+local extensionMatches = {
+    { title = "^(Bitwarden)$" },
+    { initial_title = "^(_crx_.*)$" }, -- Robustly catches ALL Chromium-based extension popups (Brave, Chrome, Edge, etc.)
+}
+for _, m in ipairs(extensionMatches) do 
+    hl.window_rule({ match = m, float = true }) 
+end
 
 
 
