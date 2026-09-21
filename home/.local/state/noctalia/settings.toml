@@ -217,13 +217,13 @@ transition = [ "disc", "fade", "wipe", "zoom" ]
     interval_seconds = 900
 
     [wallpaper.default]
-    path = "/home/gskumar/.config/backgrounds/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg"
+    path = "/home/gskumar/.config/backgrounds/macos-tahoe-26-5120x2880-22674.jpg"
 
     [wallpaper.last]
-    path = "/home/gskumar/.config/backgrounds/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg"
+    path = "/home/gskumar/.config/backgrounds/macos-tahoe-26-5120x2880-22674.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/gskumar/.config/backgrounds/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg"
+    path = "/home/gskumar/.config/backgrounds/macos-tahoe-26-5120x2880-22674.jpg"
 
 [weather]
 enabled = false
